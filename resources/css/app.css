@@ -1,0 +1,152 @@
+:root {
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #eeeeee;
+    --dark: #343a40;
+    --font-family: 'Raleway', sans-serif;
+}
+
+html, body {
+    background-color: var(--light);
+    font-family: var(--font-family);
+    font-size: 15px;
+}
+
+.form-title {
+    text-align: center;
+}
+
+.form-title h1 {
+    padding: 0 1rem;
+}
+
+.color-red {
+    color: var(--danger);
+}
+
+.form-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form-steps {
+    display: flex;
+    justify-content: center;
+    height: 15%;
+    margin: 1.2rem 0;
+}
+
+.form-steps p {
+    text-align: center;
+    margin: 0;
+}
+
+.form-container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    min-height: 80vh;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-steps-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 90%;
+}
+
+.form-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 90%;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    min-height: 4rem;
+    margin: 0.5rem 0;
+}
+
+.form-group label {
+    padding: 0.8rem;
+    width: 50%;
+}
+
+.form-group select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%;
+}
+
+.form-group select option {
+    font-family: var(--font-family);
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    height: 20%;
+    margin: 1.5rem 0;
+}
+
+.form-buttons button {
+    font-family: var(--font-family);
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-buttons .next-button {
+    background-color: var(--primary);
+    color: #ffffff;
+}
+
+.form-buttons .back-button {
+    background-color: var(--secondary);
+    color: #ffffff;
+}
+
+.form-buttons .final-submit-button {
+    background-color: var(--success);
+    color: #ffffff;
+}

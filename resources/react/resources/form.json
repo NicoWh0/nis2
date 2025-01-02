@@ -1,0 +1,356 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question_text": "Does the organization have documented security policies and procedures?",
+            "answers": [
+                {
+                    "id": 1,
+                    "answer_text": "Yes",
+                    "score": 0
+                },
+                {
+                    "id": 2,
+                    "answer_text": "No",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "question_text": "Are security policies and procedures regularly reviewed and updated?",
+            "answers": [
+                {
+                    "id": 3,
+                    "answer_text": "Yes",
+                    "score": 0
+                },
+                {
+                    "id": 4,
+                    "answer_text": "No",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "question_text": "Are user access rights reviewed regularly?",
+            "answers": [
+                {
+                    "id": 5,
+                    "answer_text": "Yes",
+                    "score": 0
+                },
+                {
+                    "id": 6,
+                    "answer_text": "No",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "question_text": "Is multi-factor authentication (MFA) implemented for accessing critical systems?",
+            "answers": [
+                {
+                    "id": 7,
+                    "answer_text": "Yes",
+                    "score": 0
+                },
+                {
+                    "id": 8,
+                    "answer_text": "No",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "question_text": "Does the organization have an incident response plan?",
+            "answers": [
+                {
+                    "id": 9,
+                    "answer_text": "Yes",
+                    "score": 0
+                },
+                {
+                    "id": 10,
+                    "answer_text": "No",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "question_text": "Are incident response exercises conducted regularly?",
+            "answers": [
+                {
+                    "id": 11,
+                    "answer_text": "Yes",
+                    "score": 0
+                },
+                {
+                    "id": 12,
+                    "answer_text": "No",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "question_text": "Are firewalls and intrusion detection/prevention systems (IDS/IPS) implemented?",
+            "answers": [
+                {
+                    "id": 13,
+                    "answer_text": "Yes",
+                    "score": 0
+                },
+                {
+                    "id": 14,
+                    "answer_text": "No",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "question_text": "Is network traffic monitored for suspicious activity?",
+            "answers": [
+                {
+                    "id": 15,
+                    "answer_text": "Yes",
+                    "score": 0
+                },
+                {
+                    "id": 16,
+                    "answer_text": "No",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "question_text": "Does the organization conduct regular risk assessments?",
+            "answers": [
+                {
+                    "id": 17,
+                    "answer_text": "Yes",
+                    "score": 0
+                },
+                {
+                    "id": 18,
+                    "answer_text": "No",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "question_text": "Are identified risks mitigated in a timely manner?",
+            "answers": [
+                {
+                    "id": 19,
+                    "answer_text": "Yes",
+                    "score": 0
+                },
+                {
+                    "id": 20,
+                    "answer_text": "No",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "question_text": "Are employees provided with regular cybersecurity training?",
+            "answers": [
+                {
+                    "id": 21,
+                    "answer_text": "Yes",
+                    "score": 0
+                },
+                {
+                    "id": 22,
+                    "answer_text": "No",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "question_text": "Are employees aware of how to report security incidents?",
+            "answers": [
+                {
+                    "id": 23,
+                    "answer_text": "Yes",
+                    "score": 0
+                },
+                {
+                    "id": 24,
+                    "answer_text": "No",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "question_text": "Are third-party vendors assessed for security compliance?",
+            "answers": [
+                {
+                    "id": 25,
+                    "answer_text": "Yes",
+                    "score": 0
+                },
+                {
+                    "id": 26,
+                    "answer_text": "No",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "question_text": "Are contracts with third-party vendors reviewed for security clauses?",
+            "answers": [
+                {
+                    "id": 27,
+                    "answer_text": "Yes",
+                    "score": 0
+                },
+                {
+                    "id": 28,
+                    "answer_text": "No",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "question_text": "Are systems and applications regularly updated with security patches?",
+            "answers": [
+                {
+                    "id": 29,
+                    "answer_text": "Yes",
+                    "score": 0
+                },
+                {
+                    "id": 30,
+                    "answer_text": "No",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "question_text": "Is there a process in place for emergency patching?",
+            "answers": [
+                {
+                    "id": 31,
+                    "answer_text": "Yes",
+                    "score": 0
+                },
+                {
+                    "id": 32,
+                    "answer_text": "No",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "question_text": "Are physical access controls in place to protect critical infrastructure?",
+            "answers": [
+                {
+                    "id": 33,
+                    "answer_text": "Yes",
+                    "score": 0
+                },
+                {
+                    "id": 34,
+                    "answer_text": "No",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "question_text": "Are security cameras and monitoring systems implemented?",
+            "answers": [
+                {
+                    "id": 35,
+                    "answer_text": "Yes",
+                    "score": 0
+                },
+                {
+                    "id": 36,
+                    "answer_text": "No",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "question_text": "Are data automatically backed up?",
+            "answers": [
+                {
+                    "id": 37,
+                    "answer_text": "Yes",
+                    "score": 0
+                },
+                {
+                    "id": 38,
+                    "answer_text": "No",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "question_text": "Are passwords stored securely?",
+            "answers": [
+                {
+                    "id": 39,
+                    "answer_text": "Yes",
+                    "score": 0
+                },
+                {
+                    "id": 40,
+                    "answer_text": "No",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "question_text": "Is there any secure way to store the data?",
+            "answers": [
+                {
+                    "id": 41,
+                    "answer_text": "Yes",
+                    "score": 0
+                },
+                {
+                    "id": 42,
+                    "answer_text": "No",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "question_text": "Are data encrypted?",
+            "answers": [
+                {
+                    "id": 43,
+                    "answer_text": "Yes",
+                    "score": 0
+                },
+                {
+                    "id": 44,
+                    "answer_text": "No",
+                    "score": 1
+                }
+            ]
+        }
+    ]
+}
