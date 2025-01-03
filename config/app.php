@@ -126,6 +126,10 @@ return [
 
     'questions' => [
         'per_step' => env('APP_QUESTIONS_PER_STEP', 10),
+    ],
+
+    'form' => [
+        'client_path' => env('APP_CLIENT_FORM_PATH', '/form/{step}'),
     ]
 
 ];

@@ -109,10 +109,6 @@ html, body {
     width: 30%;
 }
 
-.form-group select option {
-    font-family: var(--font-family);
-}
-
 .loader {
     display: flex;
     justify-content: center;
@@ -141,12 +137,116 @@ html, body {
     color: #ffffff;
 }
 
+.form-buttons .next-button:hover {
+    background-color: #0056b3;
+}
+
+.form-buttons .next-button:disabled, .form-buttons .next-button:disabled:active {
+    background-color: #ccc;
+    box-shadow: none;
+    color: #ffffff;
+    cursor: not-allowed;
+}
+
+.form-buttons .next-button:active {
+    background-color: #014d9e;
+    color: #e0e0e0;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1) inset;
+}
+
 .form-buttons .back-button {
     background-color: var(--secondary);
     color: #ffffff;
 }
 
+.form-buttons .back-button:hover {
+    background-color: #4e555b;
+}
+
+.form-buttons .back-button:active {
+    background-color: #42484d;
+    color: #e0e0e0;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1) inset;
+}
+
 .form-buttons .final-submit-button {
     background-color: var(--success);
     color: #ffffff;
+}
+
+.form-buttons .final-submit-button:hover {
+    background-color: #218838;
+}
+
+.form-buttons .final-submit-button:disabled, .form-buttons .final-submit-button:disabled:active {
+    background-color: #ccc;
+    box-shadow: none;
+    color: #ffffff;
+    cursor: not-allowed;
+}
+
+.form-buttons .final-submit-button:active {
+    background-color: #1e7e34;
+    color: #e0e0e0;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1) inset;
+}
+
+.popup-result {
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.popup-result .result-header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.result-header .header-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.header-title h2 {
+    padding: 0.5rem;
+    margin: 0.2rem 0;
+}
+
+.popup-result .header-close-button-container {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    width: 5%;
+}
+
+.header-close-button-container button {
+    padding: 0.12rem 0.5rem;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.header-close-button-container button:focus {
+    outline: none;
+}
+
+.popup-result .popup-result-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
 }

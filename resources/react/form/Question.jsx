@@ -11,7 +11,7 @@ export default function Question({ question, answers, handleChange, formData }) 
                 value={formData[question.id]}
                 onChange={handleChange}
             >
-                <option value="">Select</option>
+                <option className="select-option" value="">Select</option>
                 {answers.map((answer) => (
                     <option key={answer.id} value={answer.id}>
                         {answer.answer_text}
