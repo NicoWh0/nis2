@@ -251,3 +251,36 @@ html, body {
     height: 65vh;
 }
 
+/* Media Queries */
+
+@media screen and (max-width: 1200px) {
+    .form-group {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .form-steps-page-container {
+        width: 95%;
+    }
+    .form-page-container {
+        width: 100%;
+    }
+    .form-group {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .form-group {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 90%;
+    }
+
+    .form-group label, .form-group select {
+        width: 100%;
+    }
+}
+
